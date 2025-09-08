@@ -30,8 +30,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  Shaping the next generation IT.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -109,12 +108,6 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="/pricing"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      Pricing
-                    </a>
                   </li>
                   <li>
                     <a
@@ -151,12 +144,6 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="/"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      Refund Policy
-                    </a>
                   </li>
                 </ul>
               </div>
@@ -173,7 +160,7 @@ const Footer = () => {
                       href="/contact"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Open Support Ticket
+                      Contact Us
                     </a>
                   </li>
                   <li>
@@ -200,10 +187,7 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by UIdeck and{" "}
-              <a href="https://nextjstemplates.com" rel="nofollow noopener">
-                Next.js Templates
-              </a>
+              Copyright 2025 - All rights reserved - SYSNEOM
             </p>
           </div>
         </div>
