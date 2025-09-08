@@ -3,44 +3,44 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "The Future of AI in Business",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-01.jpg",
+      "Explore how artificial intelligence is reshaping industries and driving innovation.",
+    image: "/images/blog/ai.jpg",
     author: {
       name: "Samuyl Joshi",
-      image: "/images/blog/author-01.png",
-      designation: "Graphic Designer",
+      image: "/images/blog/user.png",
+      designation: "",
     },
-    tags: ["creative"],
+    tags: ["Artificial Intelligence"],
     publishDate: "2025",
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "Cloud Migration Strategies",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-02.jpg",
+      "Learn best practices for seamless cloud migration and optimization.",
+    image: "/images/blog/cloud.jpg",
     author: {
       name: "Musharof Chy",
-      image: "/images/blog/author-02.png",
-      designation: "Content Writer",
+      image: "/images/blog/user.png",
+      designation: "",
     },
-    tags: ["computer"],
+    tags: ["Cloud Computing"],
     publishDate: "2025",
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "Digital Transformation Trends",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-03.jpg",
+      "Stay ahead of the curve with the latest digital transformation trends and strategies.",
+    image: "/images/blog/digital.jpg",
     author: {
       name: "Lethium Deo",
-      image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      image: "/images/blog/user.png",
+      designation: "",
     },
-    tags: ["design"],
+    tags: ["Digital Strategy"],
     publishDate: "2025",
   },
 ];
