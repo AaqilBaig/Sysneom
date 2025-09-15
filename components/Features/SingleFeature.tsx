@@ -1,36 +1,24 @@
+// features/Features/SingleFeature.tsx
 import { Feature } from "@/types/feature";
-import { MagicCard } from "@/components/magicui";
+import Link from "next/link";
 
 const SingleFeature = ({ feature }: { feature: Feature }) => {
-  const { icon, title, paragraph } = feature;
+  const { icon, title, path } = feature;
 
   return (
-    <MagicCard 
-      className="w-full h-full transition-all duration-300"
-      gradientSize={300}
-      gradientColor="#3b82f6"
-      gradientOpacity={0.15}
+    <Link 
+      href={path}
+      className="block bg-white dark:bg-gray-800 rounded-xl p-4 hover:shadow-lg transition-all duration-300 border border-gray-100 dark:border-gray-700 hover:border-blue-200 dark:hover:border-blue-800/50 h-full text-center group"
     >
-      {/* Icon Section */}
-      <div className="mb-6 flex justify-center">
-        <div className="flex h-16 w-16 items-center justify-center rounded-full bg-blue-50 dark:bg-blue-950/50 text-blue-600 dark:text-blue-400">
+      <div className="flex flex-col items-center h-full justify-between">
+        <div className="flex-shrink-0 mb-2 transform transition-transform duration-300 group-hover:scale-105">
           {icon}
         </div>
-      </div>
-      
-      {/* Separator */}
-      <div className="mx-auto mb-6 h-px w-16 bg-gradient-to-r from-transparent via-blue-500/50 to-transparent"></div>
-      
-      {/* Content Section */}
-      <div className="text-center">
-        <h3 className="mb-4 text-xl font-bold leading-tight text-blue-950 dark:text-blue-200 sm:text-2xl lg:text-xl xl:text-2xl">
+        <h3 className="text-sm font-bold text-blue-950 dark:text-blue-200 leading-tight">
           {title}
         </h3>
-        <p className="text-base font-medium leading-relaxed text-gray-700 dark:text-gray-300">
-          {paragraph}
-        </p>
       </div>
-    </MagicCard>
+    </Link>
   );
 };
 
